@@ -1,0 +1,39 @@
+{
+  "name": "library-management-api",
+  "version": "1.0.0",
+  "description": "Making library-management-api",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --watch src src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P-Talele/Library-Management-API.git"
+  },
+  "author": "prashant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P-Talele/Library-Management-API/issues"
+  },
+  "homepage": "https://github.com/P-Talele/Library-Management-API#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "express-async-error": "^0.0.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^8.1.0",
+    "mongoose": "^9.0.0",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.11"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^24.10.1",
+    "install": "^0.13.0",
+    "npm": "^11.6.4",
+    "ts-node-dev": "^2.0.0"
+  }
+}
