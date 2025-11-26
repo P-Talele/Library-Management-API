@@ -3,6 +3,8 @@ import { connectDB } from './database/db';
 import { config } from './config/index';
 
 
+
+
 async function start() {
     try {
         await connectDB();

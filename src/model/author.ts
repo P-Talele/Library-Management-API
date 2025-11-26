@@ -30,4 +30,4 @@ const AuthorSchema = new Schema<authorI>(
     { timestamps: true }
 );
 
-export default model<authorI>("Author", AuthorSchema);
+export const authorModel = model<authorI>("Author", AuthorSchema);

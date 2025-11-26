@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/P-Talele/Library-Management-API#readme",
   "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.3",
     "dotenv": "^17.2.3",
     "express": "^4.21.2",
     "express-async-error": "^0.0.2",
